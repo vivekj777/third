@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    width: 100%;
+    height: 600px;
+    background-image: url(sin.jpg);background-size: cover;
+    margin-top: 0px;
+}
+#img{
+    width: 100%;
+    height: 600px;
+}
+.ho{
+    margin-top: 10px;
+    color: aliceblue;
+margin-left: 700px;
+}
+@media only screen and (max-width:300px){
+    .ho{
+        margin-left: 100px;
+        color: aquamarine;
+       
+    }
+}
